@@ -1,0 +1,1255 @@
+*{margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Glegoo', serif;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+
+/* ------------------------------------------------------------------ version ordi */
+
+
+@media screen and (min-width: 960px){
+
+
+/* menu */
+
+ header{width: 100%;
+         height: 35px;
+         background: rgba(0, 0, 0, .3);
+         position: fixed;
+         top: 0; 
+         left: 0;
+         z-index: 5;
+         overflow: hidden;
+}
+
+ h3{float: left;
+    color: yellow;
+    font-size: 24px;
+    padding-top: 5px;
+    padding-left: 20px;
+    font-weight: bold}
+
+  .navbar-light .navbar-nav .nav-link {color: white;
+                                      font-size: 16px;
+
+  }
+
+   .navbar-light .navbar-nav .nav-link:hover{color: yellow;
+                                             transform: scale(1.3);
+                                             -webkit-transform: scale(1.3);
+                                             margin-left: 50px;
+                                             transition: 1s;
+                                             -webkit-transition: 1s;
+ }
+  
+
+ .navbar-light .navbar-nav .nav-link .active>.nav-link, .nav-light .navbar-nav .nav-link.active, .navbar-light .nav-bar-nav .nav-link.show, .navbar-light, .navbar-nav .show>.nav-link 
+     {color: coral;}
+
+ .navbar{position: absolute;
+          right: 0;
+          padding-top: 0;
+          height: auto;
+
+}
+
+  
+  /* sections */
+
+ #page3, #page5, #page2 {width: 100vw;
+ 	                     height: 100vh;
+                       min-width: 100%;
+                       min-width: 100%;
+ 	                     background: #fbf7f7;
+                       overflow: hidden;
+
+ }
+
+ #page1, #page4 {width: 100vw;
+ 	               height: 100vh;
+                 min-width: 100%;
+                 min-width: 100%;
+                 background: #bf3434;
+                 overflow: hidden;
+
+ }
+
+ /* page 1 */
+
+ div.partgauche {float: left;
+ 	               position: relative;
+ 	               width: 50%;
+ 	               height: 100vh;
+                 overflow: hidden;
+             }
+
+ a:hover {text-decoration: none}
+
+ img.flat {height: 660px;
+ 
+           }
+
+ .flat:hover {transform: scale(1.3);
+   	         -webkit-transform: scale(1.3);
+   	         padding-left: 40px;
+             margin-top: 80px;
+   	         transition: 1s;
+            -webkit-transition: 1s;
+          }
+
+ article.partdroite {float: right;
+ 	             width: 50%;
+ 	             height: 100vh;
+ 	             color: white;
+
+ }
+
+ a{text-decoration: none;
+   color: black;}
+
+  .textep1 {padding-top: 90px;
+  	        padding-right: 30px;
+  	        text-align: justify; 
+  }
+
+  h1 {font-size: 50px;
+      font-weight: normal;
+      padding-bottom: 16px;}
+
+ article.partdroite .esplus1{background: white;
+          border: 1px solid;
+          text-decoration: none;
+          overflow: hidden;
+          font-size: 15px;}
+
+ article.partdroite .esplus1:hover {transform: scale(1.3);
+   	               -webkit-transform: scale(1.3);
+   	               margin-left: 20px;
+   	               transition: 1s;
+                  -webkit-transition: 1s;}
+
+  .lorem1 {padding-top: 20px;
+           width: 470px}
+
+ /* page 2 */
+
+ .parthaut {width: 100vw;
+         height: auto;
+         display: flex;
+         flex-direction: row;
+         margin-left: auto;
+         margin-top: 40px;
+         justify-content: center;
+
+         }
+
+  .titrep2 {font-weight: normal;
+            font-size: 18px}
+
+  .textep2 {padding-left: 50px;
+            width: 500px}
+
+  .envitrine {
+          background: white;
+          width: 100px; 
+          height: 25px;
+          padding-left: 10px;
+          border: 1px solid;
+          overflow: hidden;
+
+}
+
+ .envitrine:hover {transform: scale(1.3);
+   	               -webkit-transform: scale(1.3);
+   	               margin-left: 20px;
+   	               transition: 1s;
+                  -webkit-transition: 1s;
+                  margin-top: 10px}
+
+ div.logos{width: 100vw;
+          height: 80px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          }
+
+ div.logos img.almetric,img.virtual, img.autumn, img.kelly, img.beats, img.addidas{width: 150px;
+                         height: 60px}
+
+
+ div.imagesp2 {display: flex;
+               flex-direction: row;
+ 	             width: 100vw;
+ 	             height: 450px;
+               justify-content: center
+
+ }
+
+ figure.image1 {width: 33.33%;
+                height: 450px;
+                padding-left: 42px;
+                margin-left: 10px
+              }
+
+ figure.image1 img.femme1{width: 400px;
+             height: 450px;
+ }
+
+  figure.image2 {width: 33.33%;
+                height: 445px;
+                margin-right: 10px;
+                padding-left: 20px
+              }
+
+ figure.image2 img.femme2{width: 400px;
+             height: 445px;
+             margin-right: 10px
+ }
+
+
+ /*div.femme2 {width: 33.33%;
+             height: 415px;
+             background-image: url("../assets/images/jpg/femme2.jpg");
+             position: absolute;
+             z-index: 1;
+             padding-left: 100px
+             
+}*/
+
+
+ .histoire:hover {transform: scale(1.3);
+   	               -webkit-transform: scale(1.3);
+   	               transition: 3s;
+                  -webkit-transition: 3s;}
+
+ .histoire{color: white;
+             background: black;
+             width: 125px;
+             height: 30px;
+             padding-left: 10px;
+             font-size: 20px;
+              z-index: 2;
+             position: absolute;
+             margin-top: 20px;
+
+     }
+
+
+  figure.image3{width: 33.33%;
+           height: 445px;
+           }
+
+  figure.image3 img.homme{width: 400px;
+              height: 445px;
+           }
+
+ /* page 3 */
+
+  div.partg {float: left;
+             width: 50%;
+             height: 100vh;;
+}
+
+ figure.oeuvre1 {width: 400px;
+           height: 600px;
+           position: absolute;
+           z-index: 1;
+
+ }
+
+
+ figure.oeuvre2 {width: 600px;
+             height: 450px;
+             position: absolute;
+             z-index: 2}
+
+ img.oeuvre1 {width: 250px;
+ 	         height: 500px;
+ 	         position: absolute;
+           margin-top: 50px;
+ 	         margin-left: 50px;
+ 	         z-index: 1;
+
+ }
+
+
+ img.oeuvre2 {width: 400px;
+             height: 300px;
+             position: absolute;
+             margin-left: 110px;
+             margin-top: 150px;
+             z-index: 2}
+
+ article.partd{ width: 50%;
+                 height: 100vh;
+           float: right;
+
+           }
+
+ .soustitrep3 {
+  padding-top: 200px;
+ 	font-size: 15px;
+ 	font-weight: normal;
+ 	margin-bottom: 20px;
+  margin-left: 40px;
+ }
+
+ .titrep3{margin-bottom: 20px;
+          margin-left: 40px;
+          }
+
+  .loremp3{width: 72%;
+           text-align: justify;
+           margin-left: 40px;}
+
+/* page 4 */
+
+article.partgtexte{width: 50%;
+	           height: 100vh;
+	           float: left;
+
+}
+
+.soustitrep4 {margin-bottom: 20px;
+          padding-top: 150px;
+          padding-left: 30px;
+          font-weight: normal;
+          color: white;
+          font-size: 18px}
+
+.titrep4 {margin-bottom: 20px;
+          padding-left: 30px;
+          font-size: 22px
+}
+
+ .lorem4{color: white;
+         padding-left: 30px;
+         text-align: justify; 
+         width: 450px}
+
+
+ .commencer{margin-top: 20px;
+        margin-left: 30px;
+        background: white;
+        border: 1px solid;
+        overflow: hidden;}
+
+  .commencer:hover {transform: scale(1.3);
+   	               -webkit-transform: scale(1.3);
+   	               margin-left: 50px;
+   	               transition: 1s;
+                  -webkit-transition: 1s;}
+
+ div.partdimages{width: 50%;
+	               height: 100vh;
+                 float: right;
+	         }
+
+figure.tableau2{
+           width: 500px;
+           height: 500px; 
+           position: absolute;
+           z-index: 2;
+
+}
+
+ figure.tableau1 {
+             width: 400px;
+             height: 600px;
+             position: absolute;
+             z-index: 1;
+
+}
+
+img.fleur{ margin-left: 100px;
+           width: 350px;
+           height: 300px;
+           border: 1px solid black;
+           margin-top: 170px;
+           position: absolute;
+           z-index: 2;    
+  
+}
+
+img.fondblanc {
+             width: 200px;
+             height: 500px;
+             position: absolute;
+             border: 1px solid black;
+             margin-top: 80px;
+             z-index: 1;
+}
+
+
+ /* page 5 */
+
+ article.partgp5{width: 50%;
+	           height: 100vh;
+	           float: left;
+}
+
+ .soustitrep5{margin-bottom: 20px;
+              font-weight: normal;
+             padding-top: 60px;
+             padding-left: 80px;
+             font-size: 18px}
+
+ .titrep5{margin-bottom: 30px;
+          font-weight: normal;
+          font-size: 22px;
+          padding-left: 80px;}
+
+ .lorem5{font-size: 16px;
+         text-align: justify;
+         width: 500px;
+         padding-left: 80px;
+ }
+
+
+ .offres{margin-top: 20px;
+         margin-left: 80px;
+         background: white;
+          width: 148px; 
+          height: 30px;
+          padding-left: 10px;
+          font-size: 15px;
+          border: 1px solid;
+          overflow: hidden;}
+
+  .offres:hover {transform: scale(1.3);
+   	               -webkit-transform: scale(1.3);
+   	               transition: 3s;
+                  -webkit-transition: 3s;
+                  margin-left: 80px;
+                  margin-bottom: 30px;}
+                  
+
+.boutons{display: flex;
+	     flex-direction: row;
+}
+
+ .esplus2{
+         background: white;
+          width: 115px; 
+          height: 25px;
+          border: 1px solid;
+          margin-left: 30px;
+          overflow: hidden;
+          margin-top: 23px;
+         padding-left: 15px;
+         font-size: 15px;
+          }
+
+ .esplus2:hover {transform: scale(1.3);
+   	               -webkit-transform: scale(1.3);
+   	               transition: 3s;
+                  -webkit-transition: 3s;
+                  margin-bottom: 30px;
+}
+
+
+div.partdp5{width: 50%;
+	           height: 100vh;
+	           float: right;
+}
+
+.main{width: 60vh;
+      height: 600px;
+      margin-left: 200px; 
+      margin-top: 50px;
+      }
+
+/* page 6 */
+
+#page6 {width: 640px;
+ 	      height: auto;
+        min-height: 100%;
+        min-width: 100%;
+        position: relative;
+ 	      background: #fbf7f7;
+}
+
+footer {display: flex; 
+        flex-direction: row;
+
+        }
+
+footer ul {width: 316px;
+	height: 338px; 
+	margin-left: 100px;
+	list-style: none;
+	margin-top: 50px;
+    line-height: 30px;
+
+}
+
+
+.liT, .liC, .liCO, .liN {font-weight: bold; 
+                         }
+
+.haut{
+    }
+
+}
+
+
+
+/*------------------------------------------------------------------------ version tablette */
+
+@media screen and (min-width: 460px) and (max-width: 959px){
+
+
+ .navbar-toggler-icon{position: fixed;
+                      z-index: 2;
+                      }
+
+  button{position: fixed; 
+        }
+
+
+  .navbar.navbar-expand-lg.navbar-light{position: fixed;
+                                        z-index: 2;
+                                        background: rgba(0, 0, 0, .3);
+                                        }
+
+ #page3, #page5, #page2 {width: 459px;
+                       height: auto;
+                       min-width: 100%;
+                       min-width: 100%;
+                       background: #fbf7f7;
+                       overflow: hidden;
+                       padding-left: 50px;
+
+ }
+
+ #page1, #page4 {width: 459px;
+                 height: auto;
+                 min-width: 100%;
+                 min-width: 100%;
+                 background: #bf3434;
+                 overflow: hidden;
+                 padding-left: 50px;
+
+ }
+
+ /* page 1 */
+
+ div.partgauche {float: left;
+                 position: relative;
+                 width: 100vw;
+                 height: auto;
+             }
+
+ div.partgauche img.flat{width: 500px;
+                        height: 500px}
+
+
+ article.partdroite {float: left;
+               width: 100vw;
+               height: auto;
+               color: white;
+               margin-bottom: 50px;
+ }
+
+ a{text-decoration: none;
+   color: black;}
+
+  .textep1 {
+            text-align: justify; 
+  }
+
+  h1 {font-size: 24px;
+      font-weight: normal;
+      margin-bottom: 20px;}
+
+ 
+ article.partdroite .esplus1{background: white;
+          border: 1px solid;
+          text-decoration: none;
+          overflow: hidden;
+          font-size: 15px;}
+
+
+  .lorem1 {padding-top: 20px;
+           width: 70vw;
+           font-size: 20px}
+
+ /* page 2 */
+
+ .parthaut {width: 700vw;
+         height: auto;
+
+         }
+
+  .titrep2 {font-weight: normal;
+            font-size: 20px}
+
+  .textep2 {width: 700vw;
+            font-size: 18px;
+        }
+
+  .envitrine {
+          background: white;
+          width: 100px; 
+          height: 25px;
+          border: 1px solid;
+          overflow: hidden;
+
+}
+
+ div.logos{width: 70vw;
+          height: 120px;
+          display: flex;
+          flex-direction: row;
+          padding-top: 30px;
+          }
+
+ div.logos img.almetric,img.virtual, img.autumn, img.kelly, img.beats, img.addidas{width: 200px;
+                         height: 60px}
+
+ div.imagesp2 {
+             position: relative;
+             width: 100%;
+             height: auto;
+             display: flex;
+             flex-direction: column;
+
+ }
+
+figure.image1 {width: 400px;
+                height: 445px;
+                padding-left: 20px
+              }
+
+ figure.image1 img.femme1{width: 100px;
+             height: 100px;
+ }
+
+  figure.image2 {width: 400px;
+                height: 445px;
+                padding-left: 20px;
+              }
+
+ figure.image2 img.femme2{width: 400px;
+             height: 445px;
+
+ }
+
+ .histoire{color: white;
+             background: black;
+             width: 125px;
+             height: 30px;
+             padding-left: 10px;
+             margin-left: 130px;
+             font-size: 20px;
+              z-index: 2;
+             position: absolute;
+             margin-top: 20px;
+
+     }
+
+  
+  figure.image3{width: 400px;
+           height: 445px;
+           padding-left: 20px
+           }
+
+  figure.image3 img.homme{width: 400px;
+              height: 445px;
+           }
+
+
+ /* page 3 */
+
+ 
+  div.partg {float: left;
+             width: 100%;
+             height: 100vh;;
+}
+
+ figure.oeuvre1 {width: 400px;
+           height: 600px;
+           position: absolute;
+           z-index: 1;
+
+ }
+
+
+ figure.oeuvre2 {width: 600px;
+             height: 450px;
+             position: absolute;
+             z-index: 2}
+
+ img.oeuvre1 {width: 200px;
+           height: 400px;
+           position: absolute;
+           margin-top: 100px;
+           z-index: 1;
+
+ }
+
+
+ img.oeuvre2 {width: 300px;
+             height: 300px;
+             position: absolute;
+             margin-left: 10px;
+             margin-top: 150px;
+             z-index: 2}
+
+ article.partd{ width: 100%;
+                 height: 100vh;
+
+           }
+
+ .soustitrep3 {
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 20px;
+ }
+
+ .titrep3{margin-bottom: 20px;
+          width: 300px;
+          }
+
+  .loremp3{width: 72%;
+           text-align: justify;}
+
+/* page 4 */
+
+article.partgtexte{width: 100vw;
+             height: auto;
+
+}
+
+.soustitrep4 {margin-bottom: 20px;
+          font-weight: normal;
+          color: white;
+           padding-left: 30px;
+           padding-top: 50px;
+           font-size: 18px
+          }
+
+.titrep4 {margin-bottom: 20px;
+          font-size: 22px;
+          width: 500px;
+          padding-left: 30px;
+}
+
+ .lorem4{color: white;
+         text-align: justify; 
+         width: 70vw;
+         padding-left: 30px;}
+
+
+ .commencer{margin-top: 20px;
+        margin-left: 30px;
+        background: white;
+        border: 1px solid;
+        overflow: hidden;
+}
+
+
+div.partdimages{width: 100%;
+                 height: 100vh;
+                 margin-top: 50px
+           }
+
+figure.tableau2{
+           width: 500px;
+           height: 500px; 
+           position: absolute;
+           z-index: 2;
+           padding-left: 30px;
+}
+
+ figure.tableau1 {
+             width: 400px;
+             height: 600px;
+             position: absolute;
+             z-index: 1;
+            padding-left: 30px;
+
+}
+
+img.fleur{ margin-left: 100px;
+           width: 250px;
+           height: 200px;
+           border: 1px solid black;
+           margin-top: 100px;
+           margin-left: 30px;
+           position: absolute;
+           z-index: 2;    
+  
+}
+
+img.fondblanc {
+             width: 200px;
+             height: 400px;
+             position: absolute;
+             border: 1px solid black;
+             z-index: 1;
+}
+
+
+
+ /* page 5 */
+
+ article.partgp5{width: 100vw;
+             height: auto;
+             float: left;
+}
+
+ .soustitrep5{margin-bottom: 20px;
+              font-weight: normal;
+              font-size: 18px}
+
+ .titrep5{margin-bottom: 30px;
+          font-weight: normal;
+          font-size: 22px;}
+
+ .lorem5{font-size: 16px;
+         text-align: justify;
+         width: 70vw;
+ }
+
+
+ .offres{margin-top: 20px;
+         margin-left: 80px;
+         background: white;
+          width: 148px; 
+          height: 30px;
+          padding-left: 10px;
+          font-size: 15px;
+          border: 1px solid;
+          overflow: hidden;}
+                  
+
+.boutons{display: flex;
+       flex-direction: row;
+}
+
+ .esplus2{
+         background: white;
+          width: 115px; 
+          height: 25px;
+          border: 1px solid;
+          margin-left: 30px;
+          overflow: hidden;
+          margin-top: 23px;
+         padding-left: 15px;
+         font-size: 15px;
+          }
+
+div.partdp5{width: 100%;
+             height: auto;
+}
+
+.main{width: 300px;
+      height: 400px;
+      margin-top: 40px;
+      margin-left: 90px;
+}
+
+/* page 6 */
+
+#page6 {width: 100%;
+        height: auto;
+        min-height: 100%;
+        min-width: 100%;
+        position: relative;
+        background: #fbf7f7;
+        padding-left: 50px;
+}
+
+footer ul {width: 316px;
+  height: 280px; 
+  list-style: none;
+  line-height: 30px;
+}
+
+ div.tour, div.clients, div.communaute, div.nous{width: 250px;
+  height: 300px; display: inline-block; margin-left: 30px}
+
+
+
+.liT, .liC, .liCO, .liN {font-weight: bold; 
+                         }
+
+.haut{margin-left: 50%
+
+    }
+      }
+
+
+
+
+
+/*---------------------------------------------------------------------- version mobile */
+
+@media screen and (max-width: 459px){
+
+
+ .navbar-toggler-icon{position: fixed;
+                      z-index: 2
+                      }
+
+
+  button{position: fixed;
+         z-index: 2}
+
+  nav.navbar.navbar-expand-lg.navbar-light{position: fixed;
+                                           z-index: 2}
+
+
+ #page3, #page5, #page2 {width: 459px;
+                       height: auto;
+                       min-width: 100%;
+                       min-width: 100%;
+                       background: #fbf7f7;
+                       overflow: hidden;
+                       padding-left: 20px;
+
+ }
+
+ #page1, #page4 {width: 459px;
+                 height: auto;
+                 min-width: 100%;
+                 min-width: 100%;
+                 background: #bf3434;
+                 overflow: hidden;
+                 padding-left: 20px;
+
+ }
+
+ /* page 1 */
+
+ div.partgauche {float: left;
+                 position: relative;
+                 width: 100vw;
+                 height: 30%;
+             }
+
+ div.partgauche img.flat{width: 400px;
+                        height: 400px}
+
+
+ article.partdroite {float: left;
+               width: 100vw;
+               height: 70%;
+               color: white;
+ }
+
+ a{text-decoration: none;
+   color: black;}
+
+  .textep1 {
+            text-align: justify; 
+  }
+
+  h1 {font-size: 24px;
+      font-weight: normal;
+      margin-bottom: 20px;}
+
+ 
+ article.partdroite .esplus1{background: white;
+          border: 1px solid;
+          text-decoration: none;
+          overflow: hidden;
+          font-size: 15px;}
+
+
+  .lorem1 {padding-top: 20px;
+           width: 350px;
+           font-size: 20px}
+
+ /* page 2 */
+
+ .parthaut {width: 459px;
+         height: auto;
+
+         }
+
+  .titrep2 {font-weight: normal;
+            font-size: 20px}
+
+  .textep2 {width: 350px}
+
+  .envitrine {
+          background: white;
+          width: 100px; 
+          height: 25px;
+          border: 1px solid;
+          overflow: hidden;
+
+}
+
+ div.logos img {width: 130px;
+          height: 50px;
+          position: relative;
+          margin-left: 150px;
+ }
+
+ div.imagesp2 {
+             position: relative;
+             width: 100%;
+             height: auto;
+             display: flex;
+             flex-direction: column;
+
+ }
+
+figure.image1 {width: 400px;
+                height: 445px;
+                padding-left: 10px
+              }
+
+ figure.image1 img.femme1{width: 100px;
+             height: 100px;
+ }
+
+  figure.image2 {width: 400px;
+                height: 445px;
+                padding-left: 10px;
+              }
+
+ figure.image2 img.femme2{width: 400px;
+             height: 445px;
+ }
+
+ .histoire{color: white;
+             background: black;
+             width: 125px;
+             height: 30px;
+             padding-left: 10px;
+             margin-left: 130px;
+             font-size: 20px;
+              z-index: 2;
+             position: absolute;
+             margin-top: 20px;
+
+     }
+
+  
+  figure.image3{width: 385px;
+           height: 445px;
+           padding-left: 10px
+           }
+
+  figure.image3 img.homme{width: 400px;
+              height: 445px;
+           }
+
+
+ /* page 3 */
+
+ 
+  div.partg {float: left;
+             width: 100%;
+             height: 100vh;;
+}
+
+ figure.oeuvre1 {width: 400px;
+           height: 600px;
+           position: absolute;
+           z-index: 1;
+
+ }
+
+
+ figure.oeuvre2 {width: 600px;
+             height: 450px;
+             position: absolute;
+             z-index: 2}
+
+ img.oeuvre1 {width: 200px;
+           height: 400px;
+           position: absolute;
+           margin-top: 100px;
+           z-index: 1;
+
+ }
+
+
+ img.oeuvre2 {width: 300px;
+             height: 300px;
+             position: absolute;
+             margin-left: 10px;
+             margin-top: 150px;
+             z-index: 2}
+
+ article.partd{ width: 100%;
+                 height: 100vh;
+
+           }
+
+ .soustitrep3 {
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 20px;
+ }
+
+ .titrep3{margin-bottom: 20px;
+          width: 300px;
+          }
+
+  .loremp3{width: 72%;
+           text-align: justify;}
+
+/* page 4 */
+
+article.partgtexte{width: 100vw;
+             height: auto;
+             float: left;
+
+}
+
+.soustitrep4 {margin-bottom: 20px;
+          font-weight: normal;
+          color: white;
+          font-size: 18px
+          }
+
+.titrep4 {margin-bottom: 20px;
+          font-size: 22px;
+          width: 400px
+}
+
+ .lorem4{color: white;
+         text-align: justify; 
+         width: 300px}
+
+
+ .commencer{margin-top: 20px;
+        margin-left: 30px;
+        background: white;
+        border: 1px solid;
+        overflow: hidden;}
+
+
+div.partdimages{width: 100%;
+                 height: 100vh;
+           }
+
+figure.tableau2{
+           width: 500px;
+           height: 500px; 
+           position: absolute;
+           z-index: 2;
+
+}
+
+ figure.tableau1 {
+             width: 400px;
+             height: 600px;
+             position: absolute;
+             z-index: 1;
+
+}
+
+img.fleur{ margin-left: 100px;
+           width: 250px;
+           height: 200px;
+           border: 1px solid black;
+           margin-top: 100px;
+           margin-left: 30px;
+           position: absolute;
+           z-index: 2;    
+  
+}
+
+img.fondblanc {
+             width: 200px;
+             height: 400px;
+             position: absolute;
+             border: 1px solid black;
+             z-index: 1;
+}
+
+
+
+ /* page 5 */
+
+ article.partgp5{width: 100vw;
+             height: auto;
+             float: left;
+}
+
+ .soustitrep5{margin-bottom: 20px;
+              font-weight: normal;
+              font-size: 18px}
+
+ .titrep5{margin-bottom: 30px;
+          font-weight: normal;
+          font-size: 22px;}
+
+ .lorem5{font-size: 16px;
+         text-align: justify;
+ }
+
+
+ .offres{margin-top: 20px;
+         margin-left: 80px;
+         background: white;
+          width: 148px; 
+          height: 45px;
+          padding-left: 10px;
+          font-size: 15px;
+          border: 1px solid;
+          overflow: hidden;}
+                  
+
+.boutons{display: flex;
+       flex-direction: row;
+}
+
+ .esplus2{
+         background: white;
+          width: 115px; 
+          height: 25px;
+          border: 1px solid;
+          margin-left: 30px;
+          overflow: hidden;
+          margin-top: 23px;
+         padding-left: 15px;
+         font-size: 15px;
+          }
+
+div.partdp5{width: 100%;
+             height: auto;
+}
+
+.main{width: 200px;
+      height: 300px;
+      margin-top: 40px;
+}
+
+/* page 6 */
+
+#page6 {width: 100%;
+        height: auto;
+        min-height: 100%;
+        min-width: 100%;
+        position: relative;
+        background: #fbf7f7;
+}
+
+ul {width: 316px;
+  height: 280px; 
+  list-style: none;
+  line-height: 30px;
+
+}
+
+
+.liT, .liC, .liCO, .liN {font-weight: bold; 
+                         }
+
+.haut{margin-left: 50%
+
+    }
+
+  }
